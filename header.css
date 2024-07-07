@@ -90,14 +90,7 @@ nav ul li a:hover{
     height: 40px;
 }
 
-.button button a:hover{
+.button button:hover >a{
     color: #eafaf1;
 }
 
-@media (max-width:1024px){
-    
-}
-
-@media (max-width:687px){
-    
-}
