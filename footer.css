@@ -1,0 +1,108 @@
+footer {
+  background-color: #080c16;
+  margin: auto;
+  padding: 0%;
+  width: 100dvw;
+  border: #080c16 1px solid;
+}
+
+.contant {
+  margin: auto;
+  width: 1024px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contant .left {
+  width: 300px;
+  margin-right: 200px;
+}
+
+.contant .left img {
+  width: 300px;
+  height: 175px;
+}
+
+footer .contant .left button {
+  background-color: #00ad6a;
+  margin: 0px 10px 0px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+footer .contant .left button a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #080c16;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #42e388;
+  color: #000000;
+  width: 310px;
+  height: 55px;
+}
+
+footer .list {
+  width: 150px;
+  margin-top: 50px;
+}
+
+footer .list p {
+  color: white;
+}
+
+footer .list ul {
+  margin: 0%;
+  padding: 0%;
+}
+
+.list ul li {
+  list-style-type: none;
+  padding: 15px;
+  margin: -10px;
+  color: #00ad6a;
+}
+
+.list ul li:hover {
+  color: white;
+}
+
+.last {
+  margin: auto;
+  color: white;
+  font-size: 11px;
+  width: 450px;
+  margin-top: 0px;
+  padding-left: 50px;
+}
+
+.last p a {
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  footer {
+    background-color: #080c16;
+    margin: auto;
+    padding: 0%;
+    width: 1024px;
+    border: #080c16 1px solid;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    background-color: #080c16;
+    margin: auto;
+    padding: 0%;
+    width: 1024px;
+    border: #080c16 1px solid;
+  }
+  .contant {
+    margin: auto;
+    width: 1024px;
+    height: 400px;
+  }
+}
